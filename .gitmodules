@@ -1,0 +1,3 @@
+[submodule "minder"]
+	path = minder
+	url = https://github.com/tbridges42/MinderWeb.git

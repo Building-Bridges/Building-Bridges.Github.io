@@ -1,3 +1,6 @@
 [submodule "minder"]
 	path = minder
 	url = https://github.com/tbridges42/MinderWeb.git
+[submodule "spark"]
+	path = spark
+	url = https://github.com/tbridges42/SparkLights.git

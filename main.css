@@ -1,0 +1,94 @@
+body{
+	font-size: 18px;
+}
+
+.app-list {
+	width: 100%;
+	list-style: none;
+	font-size: 3em;
+	margin: 0;
+	padding: 0;
+}
+
+.app-list li {
+	background-position: center top;
+	background-repeat: no-repeat;
+	list-style: none;
+	height: 250px;
+	padding: 0;
+	margin: 0;
+	border: 1px solid black;
+	background-size: 100%;
+	position: relative;
+}
+
+.app-list li a {
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+}
+
+.well {
+}
+
+.solutions {
+	height: 90px;
+	margin: 0;
+}
+
+.brand {
+	font-size: 4em;
+	font-family: 'Josefin Sans';
+	letter-spacing: -0.04em;
+	color: #000;
+	height: 100%;
+}
+
+.vertical-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#minder {
+	background-image: url("images/banner.png");
+}
+
+#minder a {
+	color: #000;
+}
+
+#sparklights {
+	background-image: url("images/rainbow.jpg");
+}
+
+#myvote {
+	background-position: top -100px left 50%;
+	background-image: url("images/I Voted.jpg");
+}
+
+#space {
+	background-position: top -300px left 50%;
+	background-image: url("images/Space.PNG");
+}
+
+.overlay    {  
+	background:rgba(0,0,0,.75);
+    text-align:center;
+    padding:0;
+	margin: 0;
+    opacity:0;
+    -webkit-transition: opacity .25s ease;
+	-moz-transition: opacity .25s ease;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.overlay:hover {
+    opacity:1;
+}

@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Election:</strong>
+  <%= @vote_record.election_id %>
+</p>
+
+<p>
+  <strong>Method:</strong>
+  <%= @vote_record.method %>
+</p>
+
+<%= link_to 'Edit', edit_vote_record_path(@vote_record) %> |
+<%= link_to 'Back', vote_records_path %>
